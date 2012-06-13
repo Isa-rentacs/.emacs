@@ -126,3 +126,8 @@
 (add-hook 'c++-mode-hook
           '(lambda ()
              (flymake-mode t)))
+
+(global-set-key "\M-j" 'backword-char)
+(global-set-key "\M-i" 'previous-line)
+(global-set-key "\M-k" 'next-line)
+(global-set-key "\M-l" 'forward-char)
