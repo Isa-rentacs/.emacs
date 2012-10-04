@@ -127,7 +127,16 @@
           '(lambda ()
              (flymake-mode t)))
 
-(global-set-key "\M-j" 'backword-char)
-(global-set-key "\M-i" 'previous-line)
-(global-set-key "\M-k" 'next-line)
-(global-set-key "\M-l" 'forward-char)
+;(define-key key-translation-map [(M j)] [(C b)])
+;(define-key key-translation-map [(C b)] [(M j)])
+
+;(define-key key-translation-map [(M i)] [(C p)])
+;(define-key key-translation-map [(C p)] [(M i)])
+
+;(define-key key-translation-map [(M k)] [(C n)])
+;(define-key key-translation-map [(C n)] [(M k)])
+
+;(define-key key-translation-map [(M l)] [(C f)])
+;(define-key key-translation-map [(C f)] [(M l)])
+
+(set-default-coding-systems 'utf-8)
