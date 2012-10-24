@@ -1,4 +1,7 @@
 ;; .emacs
+(setq make-backup-files nil)
+(setq auto-save-default nil)
+
 ;;php-mode
 (add-to-list 'load-path "/usr/local/share/emacs/site-lisp")
 (load-library "php-mode")
